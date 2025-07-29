@@ -1,18 +1,32 @@
-## Getting Started
+### ✔️ O que foi feito:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Classe: `Smartphone`**
 
-## Folder Structure
+* Representa um celular com as propriedades:
 
-The workspace contains two folders by default, where:
+  * `marca` (ex: Samsung),
+  * `modelo` (ex: Galaxy S21),
+  * `nível de bateria` (inteiro).
+* Métodos da classe:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  * `fazerLigacao(String numero)`: simula uma ligação e reduz a bateria.
+  * `tirarFoto()`: simula tirar uma foto e reduz a bateria.
+  * `mostrarStatus()`: exibe a marca, modelo e nível de bateria atual.
+* Comentários foram adicionados com boas práticas para documentação futura com **Javadoc**.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+**Classe: `TesteSmartphone`**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* Contém o método `main` que cria uma instância da classe `Smartphone` e executa os métodos nela definidos.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🧠 Explicação resumida do que foi praticado
+
+* **Criação de classe e objeto** (`Smartphone`, `new Smartphone(...)`).
+* **Encapsulamento com `private`** e uso de métodos públicos.
+* **Uso de `main` como ponto de entrada.**
+* **Prática com `System.out.println()` para saída no terminal.**
+* **Redução de bateria como efeito colateral ao chamar métodos (simula mudança de estado).**
+* **Criação de estrutura de diretórios para `src` e `bin`.**
+
+---
