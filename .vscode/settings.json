@@ -2,6 +2,6 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar", "lib/junit-platform-console-standalone-1.10.2.jar"
     ]
 }
