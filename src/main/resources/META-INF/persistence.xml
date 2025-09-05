@@ -1,0 +1,6 @@
+<persistence-unit name="lojaPU" transaction-type="RESOURCE_LOCAL">
+<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+<class>com.ebac.model.Marca</class>
+<class>com.ebac.model.Carro</class>
+<class>com.ebac.model.Acessorio</class>
+
